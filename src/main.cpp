@@ -3,7 +3,7 @@
 #include "ShaderProgram.h"
 #include "Camera.h"
 #include "SOIL/SOIL.h"
-#include "box.h"
+#include "primitives.h"
 
 //External dependencies
 #define GLFW_DLL
@@ -17,12 +17,11 @@ static GLfloat lastX = 400, lastY = 300; //исходное положение �
 static bool firstMouse = true;
 static bool g_captureMouse         = true;  // Мышка захвачена нашим приложением или нет?
 static bool g_capturedMouseJustNow = false;
-static int view_mode = 1;
 
 GLfloat deltaTime = 0.0f;
 GLfloat lastFrame = 0.0f;
 
-Camera camera(float3(0.0f, 40.0f, 30.0f));
+Camera camera(float3(0.0f, 5.0f, 50.0f));
 
 //функция для обработки нажатий на кнопки клавиатуры
 void OnKeyboardPressed(GLFWwindow* window, int key, int scancode, int action, int mode)
@@ -50,13 +49,10 @@ void OnKeyboardPressed(GLFWwindow* window, int key, int scancode, int action, in
 		}
 		break;
 	case GLFW_KEY_1:
-		view_mode = 1; // texture view
 		break;
 	case GLFW_KEY_2:
-		view_mode = 2; // normal view
 		break;
 	case GLFW_KEY_3:
-		view_mode = 3; // color view
 		break;
 	default:
 		if (action == GLFW_PRESS)
@@ -384,13 +380,9 @@ int main(int argc, char** argv)
 	//создание шейдерной программы из двух файлов с исходниками шейдеров
 	//используется класс-обертка ShaderProgram
 	std::unordered_map<GLenum, std::string> shaders;
-	shaders[GL_VERTEX_SHADER]   = "../shaders/vertex.glsl";
-	shaders[GL_FRAGMENT_SHADER] = "../shaders/fragment.glsl";
-	ShaderProgram program(shaders); GL_CHECK_ERRORS;
-
-	shaders[GL_VERTEX_SHADER] = "../shaders/box_vertex.glsl";
-	shaders[GL_FRAGMENT_SHADER] = "../shaders/box_fragment.glsl";
-	ShaderProgram boxshader(shaders); GL_CHECK_ERRORS;
+	shaders[GL_VERTEX_SHADER] = "../shaders/prim_vertex.glsl";
+	shaders[GL_FRAGMENT_SHADER] = "../shaders/prim_fragment.glsl";
+	ShaderProgram primitive_shader(shaders); GL_CHECK_ERRORS;
 
 
 	//Создаем и загружаем геометрию поверхности
@@ -403,6 +395,7 @@ int main(int argc, char** argv)
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	
 	Box box(10);
+	Plane plane(10);
 	//цикл обработки сообщений и отрисовки сцены каждый кадр
 	glEnable(GL_BLEND); // прозрачность
 	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
@@ -421,32 +414,29 @@ int main(int argc, char** argv)
 		glClearColor(0.1f, 0.1f, 0.1f, 1.0f); GL_CHECK_ERRORS;
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); GL_CHECK_ERRORS;
 
-		program.StartUseShader(); GL_CHECK_ERRORS;
 
 		//обновляем матрицы камеры и проекции каждый кадр
 		float4x4 view       = camera.GetViewMatrix();
 		float4x4 projection = projectionMatrixTransposed(camera.zoom, float(WIDTH) / float(HEIGHT), 0.1f, 1000.0f);
-
-										//модельная матрица, определяющая положение объекта в мировом пространстве
+		/*
+		// модельная матрица, определяющая положение объекта в мировом пространстве
 		float4x4 model; //начинаем с единичной матрицы
 
 		program.StartUseShader();
 
-		//загружаем uniform-переменные в шейдерную программу (одинаковые для всех параллельно запускаемых копий шейдера)
+		// загружаем uniform-переменные в шейдерную программу (одинаковые для всех параллельно запускаемых копий шейдера)
 		program.SetUniform("view",       view);       GL_CHECK_ERRORS;
 		program.SetUniform("projection", projection); GL_CHECK_ERRORS;
 		program.SetUniform("model",      model);
-		program.SetUniform("mode",       view_mode);
 
-		//рисуем плоскость
+		// рисуем плоскость
 		glBindVertexArray(vaoTriStrip);
 		glDrawElements(GL_TRIANGLE_STRIP, triStripIndices, GL_UNSIGNED_INT, nullptr); GL_CHECK_ERRORS;
 		glBindVertexArray(0); GL_CHECK_ERRORS;
-
-		//рисуем box
-		box.Draw(boxshader, projection, view, camera.pos);
-
 		program.StopUseShader();
+		*/
+		box.Draw(primitive_shader, projection, view, float4(-20,0,0,0));
+		plane.Draw(primitive_shader, projection, view, float4(20,0,0,0));
 
 		glfwSwapBuffers(window);
 	}

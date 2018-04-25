@@ -7,10 +7,10 @@ out vec3 TexCoords;
 
 uniform mat4 view;
 uniform mat4 projection;
-uniform vec3 campos;
+uniform vec4 shift;
 
 void main()
 {
-  gl_Position = projection * view * vec4(vertex, 1.0f);
+  gl_Position = projection * view * vec4(vertex, 1.0f) + shift;
   TexCoords = vertex;
 }
