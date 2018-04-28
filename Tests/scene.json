@@ -1,0 +1,102 @@
+{
+	"metadata": {
+		"version": 4.5,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "A6F1C509-6E45-4E87-9D51-EACCEB6816CE",
+			"type": "BoxBufferGeometry",
+			"width": 1,
+			"height": 1,
+			"depth": 1,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		},
+		{
+			"uuid": "FF869118-94CF-4B86-8FFE-87D5F6E640C9",
+			"type": "PlaneBufferGeometry",
+			"width": 1,
+			"height": 1,
+			"widthSegments": 1,
+			"heightSegments": 1
+		}],
+	"materials": [
+		{
+			"uuid": "67FAB72C-8244-4AA1-B6BF-88724C6797E8",
+			"type": "MeshStandardMaterial",
+			"color": 13049888,
+			"roughness": 1,
+			"metalness": 0.06,
+			"emissive": 11679543,
+			"opacity": 0,
+			"depthFunc": 3,
+			"depthTest": true,
+			"depthWrite": true
+		},
+		{
+			"uuid": "5773F01C-7354-4E89-B7E1-A7C55144D123",
+			"type": "MeshStandardMaterial",
+			"color": 11972527,
+			"roughness": 1,
+			"metalness": 0,
+			"emissive": 0,
+			"depthFunc": 3,
+			"depthTest": true,
+			"depthWrite": true
+		}],
+	"object": {
+		"uuid": "3741222A-BD8F-401C-A5D2-5A907E891896",
+		"type": "Scene",
+		"name": "Scene",
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+		"children": [
+			{
+				"uuid": "03C7CEF6-8A83-4332-8F70-EB8780BB2696",
+				"type": "Mesh",
+				"name": "Box",
+				"castShadow": true,
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+				"geometry": "A6F1C509-6E45-4E87-9D51-EACCEB6816CE",
+				"material": "67FAB72C-8244-4AA1-B6BF-88724C6797E8"
+			},
+			{
+				"uuid": "9570AADB-7BCF-400B-86D8-D9F3A05BB239",
+				"type": "PointLight",
+				"name": "PointLight",
+				"castShadow": true,
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-2.114586,1.881722,1.75694,1],
+				"color": 16777215,
+				"intensity": 1,
+				"distance": 0,
+				"decay": 1,
+				"shadow": {
+					"radius": 0.56,
+					"camera": {
+						"uuid": "C35EF671-790A-4CF8-9D43-7977C819D46A",
+						"type": "PerspectiveCamera",
+						"fov": 90,
+						"zoom": 1,
+						"near": 0.5,
+						"far": 500,
+						"focus": 10,
+						"aspect": 1,
+						"filmGauge": 35,
+						"filmOffset": 0
+					}
+				}
+			},
+			{
+				"uuid": "486A5885-4F76-4044-BFA5-E0BCF39CEB57",
+				"type": "Mesh",
+				"name": "Plane",
+				"receiveShadow": true,
+				"matrix": [5.207901,0,0,0,0,-0.117317,-7.602325,0,0,5.207281,-0.080357,0,0,-0.515397,-0.001228,1],
+				"geometry": "FF869118-94CF-4B86-8FFE-87D5F6E640C9",
+				"material": "5773F01C-7354-4E89-B7E1-A7C55144D123"
+			}],
+		"background": 11184810
+	}
+}

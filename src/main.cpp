@@ -1,6 +1,12 @@
 #include <iostream>
 #include "primitives.h"
-int main(){
-	cout << "work!" << endl;
+#include "scene.h"
+
+int main() {
+	cout << "Starts" << endl;
+	Scene scene("../Tests/scene.json");
+	Scene scene_obj("../Tests/object.obj");
+	
+	
 	return 0;
 }
