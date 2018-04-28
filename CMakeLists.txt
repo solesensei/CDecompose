@@ -11,6 +11,12 @@ file(GLOB_RECURSE glm
     ${DEPEN_DIR}/glm/*.hpp
 )
 
+file(GLOB_RECURSE nlohmann
+    ${DEPEN_DIR}/nlohmann/*.h
+    ${DEPEN_DIR}/nlohmann/*.cpp
+    ${DEPEN_DIR}/nlohmann/*.hpp
+)
+
 file(GLOB sources
     include/*.h
     include/*.hpp
@@ -20,7 +26,7 @@ file(GLOB sources
 
 include_directories("include" "depen")
 
-add_executable(${PROJECT_NAME} ${glm} ${sources})
+add_executable(${PROJECT_NAME} ${glm} ${nlohmann} ${sources})
 SET_TARGET_PROPERTIES(${PROJECT_NAME} PROPERTIES LINKER_LANGUAGE C)
 
 
