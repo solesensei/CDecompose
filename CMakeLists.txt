@@ -17,6 +17,12 @@ file(GLOB_RECURSE nlohmann
     ${DEPEN_DIR}/nlohmann/*.hpp
 )
 
+file(GLOB_RECURSE HACD
+    ${DEPEN_DIR}/HACD_Lib/inc/*.h
+    ${DEPEN_DIR}/HACD_Lib/inc/*.cpp
+    ${DEPEN_DIR}/HACD_Lib/src/*.cpp
+)
+
 file(GLOB sources
     include/*.h
     include/*.hpp
@@ -24,10 +30,9 @@ file(GLOB sources
     src/*.c
 )
 
-include_directories("include" "depen")
+include_directories("include" "depen" "depen/HACD_Lib/inc/")
 
-add_executable(${PROJECT_NAME} ${glm} ${nlohmann} ${sources})
+add_executable(${PROJECT_NAME} ${glm} ${nlohmann} ${HACD} ${sources} ${PROJECT_CPP_FILES} ${PROJECT_C_FILES} ${PROJECT_INC_FILES} ${PROJECT_INL_FILES})
 SET_TARGET_PROPERTIES(${PROJECT_NAME} PROPERTIES LINKER_LANGUAGE C)
-
 
 target_link_libraries(${PROJECT_NAME} pthread Xcursor X11 Xxf86vm Xrandr Xi GL dl)
