@@ -8,7 +8,8 @@
 #include "glm/glm.hpp"
 #include "glm/gtc/matrix_transform.hpp"
 #include "nlohmann/json.hpp"
-
+#include "HACD_Lib/inc/hacdHACD.h"
+#include "HACD_Lib/inc/hacdMicroAllocator.h"
 
 using glm::vec3;
 using std::tuple;
@@ -21,7 +22,6 @@ using std::ofstream;
 using std::ifstream;
 using std::ios;
 using nlohmann::json;
-
 
 struct Point
 {

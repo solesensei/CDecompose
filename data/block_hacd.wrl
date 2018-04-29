@@ -1,0 +1,6516 @@
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.83 0.86 0.77
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-2.23567 -5.89097 -18.9999,
+						8.91663 1.12896 -18.9997,
+						3.43053 -6.98656 -18.9998,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.15 0.93 0.35
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						8.91663 1.12896 -18.9997,
+						7.673 -4.10503 -19.0002,
+						3.43053 -6.98656 -18.9998,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.86 0.92 0.49
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						2.9298 7.02038 -18.9997,
+						-2.23567 -5.89097 -18.9999,
+						-4.72309 -2.69813 -18.9997,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.21 0.62 0.27
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						2.9298 7.02038 -18.9997,
+						8.91663 1.12896 -18.9997,
+						-2.23567 -5.89097 -18.9999,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 4
+# Triangles: 4
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.9 0.59 0.63
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-5.26735 -0.458692 -9.99976,
+						-5.26598 0.792431 -18.9994,
+						-2.89024 5.47932 -18.9999,
+						-4.72309 -2.69813 -18.9997,
+					]
+				}
+				coordIndex [ 
+						0, 1, 3, -1,
+						2, 1, 0, -1,
+						1, 2, 3, -1,
+						2, 0, 3, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.72 0.36 0.11
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-2.89024 5.47932 -18.9999,
+						2.9298 7.02038 -18.9997,
+						-4.72309 -2.69813 -18.9997,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 4
+# Triangles: 4
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.68 0.67 0.29
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						7.41431 4.37654 -9.99993,
+						8.91663 1.12896 -18.9997,
+						6.73056 5.0912 -18.9996,
+						2.9298 7.02038 -18.9997,
+					]
+				}
+				coordIndex [ 
+						1, 0, 3, -1,
+						0, 1, 2, -1,
+						2, 1, 3, -1,
+						0, 2, 3, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.82 0.3 0.62
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-2.23567 -5.89097 -18.9999,
+						3.43053 -6.98656 -18.9998,
+						1.08085 -7.08294 -10,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.23 0.67 0.35
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-4.72309 -2.69813 -18.9997,
+						-2.23567 -5.89097 -18.9999,
+						-3.3688 -5.00537 -9.99998,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.29 0.02 0.22
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-5.26598 0.792431 -18.9994,
+						-5.26735 -0.458692 -9.99976,
+						-4.38341 3.65219 -10.0006,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.58 0.69 0.67
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-5.26598 0.792431 -18.9994,
+						-4.38341 3.65219 -10.0006,
+						-2.89024 5.47932 -18.9999,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.93 0.56 0.11
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-0.604312 6.69951 -10.0008,
+						2.9298 7.02038 -18.9997,
+						-2.89024 5.47932 -18.9999,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.42 0.29 0.73
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-3.3688 -5.00537 -9.99998,
+						-2.23567 -5.89097 -18.9999,
+						1.08085 -7.08294 -10,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.21 0.19 0.84
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						9.0253 -0.362304 -10.0002,
+						7.673 -4.10503 -19.0002,
+						8.91663 1.12896 -18.9997,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.37 0.98 0.24
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						2.9298 7.02038 -18.9997,
+						3.99924 6.77701 -9.99999,
+						6.73056 5.0912 -18.9996,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.15 0.7 0.13
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						3.43053 -6.98656 -18.9998,
+						7.673 -4.10503 -19.0002,
+						6.20817 -5.70089 -10.0003,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.26 0.91 0.8
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-5.26735 -0.458692 -9.99976,
+						-4.72309 -2.69813 -18.9997,
+						-3.3688 -5.00537 -9.99998,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.56 0.73 0.62
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						7.41431 4.37654 -9.99993,
+						9.0253 -0.362304 -10.0002,
+						8.91663 1.12896 -18.9997,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.7 0.96 0.81
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-0.604312 6.69951 -10.0008,
+						-2.89024 5.47932 -18.9999,
+						-4.38341 3.65219 -10.0006,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.05 0.25 0.84
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						7.41431 4.37654 -9.99993,
+						6.73056 5.0912 -18.9996,
+						3.99924 6.77701 -9.99999,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.27 0.36 0.05
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						1.08085 -7.08294 -10,
+						3.43053 -6.98656 -18.9998,
+						6.20817 -5.70089 -10.0003,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.46 0.29 0.13
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						7.673 -4.10503 -19.0002,
+						9.0253 -0.362304 -10.0002,
+						6.20817 -5.70089 -10.0003,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.57 0.24 0.95
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						3.99924 6.77701 -9.99999,
+						2.9298 7.02038 -18.9997,
+						-0.604312 6.69951 -10.0008,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.82 0.45 0.14
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-3.3688 -5.00537 -9.99998,
+						1.08085 -7.08294 -10,
+						-8.19928 -9.99953 -9.99923,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.67 0.34 0.64
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-5.26735 -0.458692 -9.99976,
+						-3.3688 -5.00537 -9.99998,
+						-8.19928 -9.99953 -9.99923,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.43 0.5 0.87
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-4.38341 3.65219 -10.0006,
+						-5.26735 -0.458692 -9.99976,
+						-8.19936 9.99955 -9.99906,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.08 0.76 0.78
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						1.08085 -7.08294 -10,
+						11.7995 -9.99928 -9.99901,
+						-8.19928 -9.99953 -9.99923,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.88 0.84 0.03
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						1.08085 -7.08294 -10,
+						6.20817 -5.70089 -10.0003,
+						11.7995 -9.99928 -9.99901,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.51 0.54 0.99
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						6.20817 -5.70089 -10.0003,
+						9.0253 -0.362304 -10.0002,
+						11.7995 -9.99928 -9.99901,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.32 0.6 0.76
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						9.0253 -0.362304 -10.0002,
+						11.7996 0.165275 -9.99945,
+						11.7995 -9.99928 -9.99901,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.68 0.39 0.12
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-5.26735 -0.458692 -9.99976,
+						-8.19928 -9.99953 -9.99923,
+						-8.19936 9.99955 -9.99906,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 4
+# Triangles: 4
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.26 0.86 0.94
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7993 9.99949 -9.99926,
+						9.0253 -0.362304 -10.0002,
+						7.41431 4.37654 -9.99993,
+						11.7996 0.165275 -9.99945,
+					]
+				}
+				coordIndex [ 
+						1, 0, 3, -1,
+						0, 1, 2, -1,
+						2, 1, 3, -1,
+						0, 2, 3, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.39 0.95 0.7
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-0.604312 6.69951 -10.0008,
+						-4.38341 3.65219 -10.0006,
+						-8.19936 9.99955 -9.99906,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.34 0.78 0.67
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7993 9.99949 -9.99926,
+						7.41431 4.37654 -9.99993,
+						3.99924 6.77701 -9.99999,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 4
+# Triangles: 4
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.01 0.97 0.02
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7993 9.99949 -9.99926,
+						-0.604312 6.69951 -10.0008,
+						3.99924 6.77701 -9.99999,
+						-8.19936 9.99955 -9.99906,
+					]
+				}
+				coordIndex [ 
+						0, 1, 3, -1,
+						2, 1, 0, -1,
+						1, 2, 3, -1,
+						2, 0, 3, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.17 0.92 0.52
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.19928 -9.99953 -9.99923,
+						11.7995 -9.99928 -9.99901,
+						3.89702 -9.99929 -5.80536,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.56 0.01 0.8
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-1.30805 -9.9995 -5.47429,
+						-8.19928 -9.99953 -9.99923,
+						3.89702 -9.99929 -5.80536,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.86 0.41 0.65
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.19936 9.99955 -9.99906,
+						-8.19928 -9.99953 -9.99923,
+						-8.19969 -0.405135 -6.21926,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.89 0.44 0.19
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7993 9.99949 -9.99926,
+						-8.19936 9.99955 -9.99906,
+						2.18169 9.99997 -6.13272,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 4
+# Triangles: 4
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.4 0.29 0.31
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						1.14191 1.24403 -6.07351,
+						-1.30805 -9.9995 -5.47429,
+						-0.995576 -2.84111 -5.38547,
+						-8.19969 -0.405135 -6.21926,
+					]
+				}
+				coordIndex [ 
+						0, 1, 3, -1,
+						2, 1, 0, -1,
+						1, 2, 3, -1,
+						2, 0, 3, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.17 0.97 0.71
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-1.30805 -9.9995 -5.47429,
+						3.89702 -9.99929 -5.80536,
+						1.14191 1.24403 -6.07351,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.81 0.75 0.09
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.19928 -9.99953 -9.99923,
+						-8.19934 -5.53963 -2.95087,
+						-8.19969 -0.405135 -6.21926,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.27 0.67 0.56
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-0.995576 -2.84111 -5.38547,
+						-8.19969 -0.405135 -6.21926,
+						-8.19934 -5.53963 -2.95087,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 4
+# Triangles: 4
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.97 0.53 0.86
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7997 -5.9021 -2.34952,
+						11.7996 0.165275 -9.99945,
+						4.71727 -2.99618 -5.3422,
+						11.7982 -2.52926 -5.50745,
+					]
+				}
+				coordIndex [ 
+						0, 1, 3, -1,
+						2, 1, 0, -1,
+						1, 2, 3, -1,
+						2, 0, 3, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.65 0.06 0.83
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7995 -9.99928 -9.99901,
+						11.7996 0.165275 -9.99945,
+						11.7997 -5.9021 -2.34952,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.19 0.24 0.28
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						1.14191 1.24403 -6.07351,
+						3.89702 -9.99929 -5.80536,
+						4.71727 -2.99618 -5.3422,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.71 0.32 0.29
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						4.71727 -2.99618 -5.3422,
+						11.7994 0.98077 -6.11911,
+						1.14191 1.24403 -6.07351,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 4
+# Triangles: 4
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.03 0.19 0.7
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7994 0.98077 -6.11911,
+						11.7996 0.165275 -9.99945,
+						4.71727 -2.99618 -5.3422,
+						11.7982 -2.52926 -5.50745,
+					]
+				}
+				coordIndex [ 
+						1, 0, 3, -1,
+						0, 1, 2, -1,
+						2, 1, 3, -1,
+						0, 2, 3, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.68 0.08 0.15
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						1.14191 1.24403 -6.07351,
+						11.7994 0.98077 -6.11911,
+						4.89172 3.23961 -5.26579,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.4 0.49 0.96
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.19969 -0.405135 -6.21926,
+						1.14191 1.24403 -6.07351,
+						-8.19969 4.90172 -3.74936,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.23 0.18 0.45
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.19969 -0.405135 -6.21926,
+						-8.19969 4.90172 -3.74936,
+						-8.19936 9.99955 -9.99906,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.46 0.51 0.21
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						1.14191 1.24403 -6.07351,
+						-2.74001 4.56818 -4.00118,
+						-8.19969 4.90172 -3.74936,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.55 0.79 0.88
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-2.52951 9.99743 -4.54901,
+						-2.74001 4.56818 -4.00118,
+						1.14191 1.24403 -6.07351,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 4
+# Triangles: 4
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.64 0.28 0.41
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.8001 5.49446 -2.82502,
+						11.7996 0.165275 -9.99945,
+						11.7994 0.98077 -6.11911,
+						4.89172 3.23961 -5.26579,
+					]
+				}
+				coordIndex [ 
+						0, 1, 3, -1,
+						2, 1, 0, -1,
+						1, 2, 3, -1,
+						2, 0, 3, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.5 0.93 0
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-2.52951 9.99743 -4.54901,
+						1.14191 1.24403 -6.07351,
+						2.18169 9.99997 -6.13272,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.34 0.64 0.24
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						1.14191 1.24403 -6.07351,
+						4.89172 3.23961 -5.26579,
+						2.18169 9.99997 -6.13272,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.14 0.87 0.56
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						6.27881 9.99866 -4.11754,
+						2.18169 9.99997 -6.13272,
+						4.89172 3.23961 -5.26579,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.43 0.91 0.27
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-2.52951 9.99743 -4.54901,
+						2.18169 9.99997 -6.13272,
+						-8.19936 9.99955 -9.99906,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.65 0.59 0.36
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7993 9.99949 -9.99926,
+						2.18169 9.99997 -6.13272,
+						6.27881 9.99866 -4.11754,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 4
+# Triangles: 4
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.32 0.51 0.37
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						7.52913 -5.73209 -2.22812,
+						3.89702 -9.99929 -5.80536,
+						7.03148 -9.99935 -3.14145,
+						11.7995 -9.99928 -9.99901,
+					]
+				}
+				coordIndex [ 
+						1, 0, 3, -1,
+						0, 1, 2, -1,
+						2, 1, 3, -1,
+						0, 2, 3, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.28 0.75 0.07
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-4.22837 -6.06183 -1.67907,
+						-1.30805 -9.9995 -5.47429,
+						-0.995576 -2.84111 -5.38547,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 4
+# Triangles: 4
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.74 0.21 0.58
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7997 -5.9021 -2.34952,
+						3.89702 -9.99929 -5.80536,
+						4.71727 -2.99618 -5.3422,
+						7.52913 -5.73209 -2.22812,
+					]
+				}
+				coordIndex [ 
+						1, 0, 3, -1,
+						0, 1, 2, -1,
+						2, 1, 3, -1,
+						0, 2, 3, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.95 0.29 0.37
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-4.22837 -6.06183 -1.67907,
+						-0.995576 -2.84111 -5.38547,
+						-8.19934 -5.53963 -2.95087,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.35 0.93 0.18
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						4.89172 3.23961 -5.26579,
+						7.68003 5.92317 -1.58971,
+						6.27881 9.99866 -4.11754,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.28 0.43 0.11
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						4.89172 3.23961 -5.26579,
+						11.8001 5.49446 -2.82502,
+						7.68003 5.92317 -1.58971,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.28 0.29 0.76
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7993 9.99949 -9.99926,
+						11.8001 5.49446 -2.82502,
+						11.7996 0.165275 -9.99945,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.04 0.43 0.63
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.19936 9.99955 -9.99906,
+						-8.19969 4.90172 -3.74936,
+						-8.19937 9.99966 9.99891,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.13 0.38 0.06
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-1.30805 -9.9995 -5.47429,
+						-4.25569 -9.99956 -1.1548,
+						-8.19928 -9.99953 -9.99923,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.4 0.04 0.18
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-4.25569 -9.99956 -1.1548,
+						-1.30805 -9.9995 -5.47429,
+						-4.22837 -6.06183 -1.67907,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 4
+# Triangles: 4
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.28 0.88 0.69
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-4.2219 6.0099 -1.00633,
+						-8.19969 4.90172 -3.74936,
+						-2.74001 4.56818 -4.00118,
+						-2.52951 9.99743 -4.54901,
+					]
+				}
+				coordIndex [ 
+						1, 0, 3, -1,
+						0, 1, 2, -1,
+						2, 1, 3, -1,
+						0, 2, 3, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 4
+# Triangles: 4
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.24 0.43 0.7
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						7.87601 9.99939 -0.562771,
+						11.7993 9.99949 -9.99926,
+						6.27881 9.99866 -4.11754,
+						7.68003 5.92317 -1.58971,
+					]
+				}
+				coordIndex [ 
+						1, 0, 3, -1,
+						0, 1, 2, -1,
+						2, 1, 3, -1,
+						0, 2, 3, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 4
+# Triangles: 4
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.83 0.9 0.99
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7995 -9.99936 9.99908,
+						7.03148 -9.99935 -3.14145,
+						7.52913 -5.73209 -2.22812,
+						7.87512 -9.99883 0.573371,
+					]
+				}
+				coordIndex [ 
+						1, 0, 3, -1,
+						0, 1, 2, -1,
+						2, 1, 3, -1,
+						0, 2, 3, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.72 0.25 0.44
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7995 -9.99936 9.99908,
+						7.03148 -9.99935 -3.14145,
+						11.7995 -9.99928 -9.99901,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.9 0.05 0.39
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.19934 -5.53963 -2.95087,
+						-8.19928 -9.99953 -9.99923,
+						-8.19948 -9.99938 9.99926,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.54 0.86 0.69
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.19937 9.99966 9.99891,
+						-8.19969 4.90172 -3.74936,
+						-8.20001 5.72033 2.56408,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.82 0.42 0.64
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.20001 5.72033 2.56408,
+						-8.19969 4.90172 -3.74936,
+						-4.2219 6.0099 -1.00633,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.97 0.07 0.55
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7993 9.99949 -9.99926,
+						11.7998 5.35982 3.27815,
+						11.8001 5.49446 -2.82502,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.04 0.48 0.11
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-4.25955 9.99985 1.14078,
+						-4.2219 6.0099 -1.00633,
+						-2.52951 9.99743 -4.54901,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.22 0.28 0.99
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.19936 9.99955 -9.99906,
+						-4.25955 9.99985 1.14078,
+						-2.52951 9.99743 -4.54901,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.43 0.46 0.68
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7993 9.99949 -9.99926,
+						11.7994 9.99951 9.99912,
+						11.7998 5.35982 3.27815,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.4 0.22 0.11
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						7.52913 -5.73209 -2.22812,
+						7.87512 -9.99883 0.573371,
+						7.48541 -5.75902 2.25798,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.1 0.05 0.01
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.19973 -5.46526 2.7559,
+						-8.19934 -5.53963 -2.95087,
+						-8.19948 -9.99938 9.99926,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.61 0.3 0.78
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-4.22837 -6.06183 -1.67907,
+						-8.19934 -5.53963 -2.95087,
+						-8.19973 -5.46526 2.7559,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.05 0.2 0.36
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7997 -5.9021 -2.34952,
+						7.52913 -5.73209 -2.22812,
+						7.48541 -5.75902 2.25798,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.44 0.26 0.22
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						7.68003 5.92317 -1.58971,
+						11.8001 5.49446 -2.82502,
+						11.7998 5.35982 3.27815,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 4
+# Triangles: 4
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.65 0.08 0.16
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						7.87601 9.99939 -0.562771,
+						7.68003 5.92317 -1.58971,
+						11.7998 5.35982 3.27815,
+						7.45624 5.64875 2.42349,
+					]
+				}
+				coordIndex [ 
+						0, 1, 3, -1,
+						2, 1, 0, -1,
+						1, 2, 3, -1,
+						2, 0, 3, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.82 0.58 0.24
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7993 9.99949 -9.99926,
+						7.87601 9.99939 -0.562771,
+						11.7994 9.99951 9.99912,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.37 0.62 0.24
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.19948 -9.99938 9.99926,
+						-8.19928 -9.99953 -9.99923,
+						-2.91331 -9.99962 4.17975,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 4
+# Triangles: 4
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0 0.36 0.52
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-2.91331 -9.99962 4.17975,
+						-8.19928 -9.99953 -9.99923,
+						-4.25569 -9.99956 -1.1548,
+						-4.22837 -6.06183 -1.67907,
+					]
+				}
+				coordIndex [ 
+						1, 0, 3, -1,
+						0, 1, 2, -1,
+						2, 1, 3, -1,
+						0, 2, 3, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.99 0.79 0.5
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-3.48185 -5.28829 3.03019,
+						-2.91331 -9.99962 4.17975,
+						-4.22837 -6.06183 -1.67907,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.68 0.71 0.73
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7995 -9.99936 9.99908,
+						11.7995 -9.99928 -9.99901,
+						11.7997 -5.9021 -2.34952,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.31 0.81 0.3
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-3.48185 -5.28829 3.03019,
+						-4.22837 -6.06183 -1.67907,
+						-8.19973 -5.46526 2.7559,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.33 0.94 0.6
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7992 -5.0907 3.44179,
+						11.7997 -5.9021 -2.34952,
+						7.48541 -5.75902 2.25798,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 4
+# Triangles: 4
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.63 0.99 0.81
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-3.68158 5.46217 2.7167,
+						-4.2219 6.0099 -1.00633,
+						-4.25955 9.99985 1.14078,
+						-8.20001 5.72033 2.56408,
+					]
+				}
+				coordIndex [ 
+						1, 0, 3, -1,
+						0, 1, 2, -1,
+						2, 1, 3, -1,
+						0, 2, 3, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.99 0.96 0.59
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						7.87601 9.99939 -0.562771,
+						7.45624 5.64875 2.42349,
+						6.34355 9.99955 4.31692,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.73 0.13 0.68
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.19936 9.99955 -9.99906,
+						-8.19937 9.99966 9.99891,
+						-4.25955 9.99985 1.14078,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.9 0.95 0.26
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7994 9.99951 9.99912,
+						7.87601 9.99939 -0.562771,
+						6.34355 9.99955 4.31692,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.66 0.84 0.4
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						5.72044 -10.0001 4.72021,
+						7.87512 -9.99883 0.573371,
+						11.7995 -9.99936 9.99908,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.9 0.84 0.76
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						7.48541 -5.75902 2.25798,
+						7.87512 -9.99883 0.573371,
+						5.72044 -10.0001 4.72021,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.42 0.36 0.07
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7995 -9.99936 9.99908,
+						11.7997 -5.9021 -2.34952,
+						11.7992 -5.0907 3.44179,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 4
+# Triangles: 4
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.45 0.56 0.79
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.19937 9.99966 9.99891,
+						-4.25955 9.99985 1.14078,
+						-3.68158 5.46217 2.7167,
+						-2.23969 9.9994 4.56548,
+					]
+				}
+				coordIndex [ 
+						1, 0, 3, -1,
+						0, 1, 2, -1,
+						2, 1, 3, -1,
+						0, 2, 3, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.18 0.87 0.12
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-2.91331 -9.99962 4.17975,
+						-3.48185 -5.28829 3.03019,
+						-1.06159 -2.86331 5.3486,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.48 0.72 0.59
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						7.48541 -5.75902 2.25798,
+						5.72044 -10.0001 4.72021,
+						4.50895 -2.82872 5.47414,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.09 0.36 0.1
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.19814 -2.31338 5.74276,
+						-8.19973 -5.46526 2.7559,
+						-8.19948 -9.99938 9.99926,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.42 0.87 0.06
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.19814 -2.31338 5.74276,
+						-3.48185 -5.28829 3.03019,
+						-8.19973 -5.46526 2.7559,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.01 0.13 0.72
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.19814 -2.31338 5.74276,
+						-1.06159 -2.86331 5.3486,
+						-3.48185 -5.28829 3.03019,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.21 0.55 0.19
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						4.50895 -2.82872 5.47414,
+						11.7992 -5.0907 3.44179,
+						7.48541 -5.75902 2.25798,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 4
+# Triangles: 4
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.99 0.21 0.04
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-1.23417 3.06258 5.28843,
+						-8.20001 5.72033 2.56408,
+						-3.68158 5.46217 2.7167,
+						-2.23969 9.9994 4.56548,
+					]
+				}
+				coordIndex [ 
+						1, 0, 3, -1,
+						0, 1, 2, -1,
+						2, 1, 3, -1,
+						0, 2, 3, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.39 0.11 0.4
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						4.67035 2.84021 5.40255,
+						7.45624 5.64875 2.42349,
+						11.7998 5.35982 3.27815,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.67 0.05 0.28
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						4.67035 2.84021 5.40255,
+						6.34355 9.99955 4.31692,
+						7.45624 5.64875 2.42349,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.27 0.5 0.84
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7995 -9.99936 9.99908,
+						1.54935 -9.99973 6.06489,
+						5.72044 -10.0001 4.72021,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.58 0.2 0.24
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-1.06159 -2.86331 5.3486,
+						1.54935 -9.99973 6.06489,
+						-2.91331 -9.99962 4.17975,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.22 0.69 0.96
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						4.50895 -2.82872 5.47414,
+						5.72044 -10.0001 4.72021,
+						1.54935 -9.99973 6.06489,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.81 0.3 0.84
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						1.36639 0.0183953 6.06127,
+						1.54935 -9.99973 6.06489,
+						-1.06159 -2.86331 5.3486,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.5 0.25 0.85
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						1.36639 0.0183953 6.06127,
+						4.50895 -2.82872 5.47414,
+						1.54935 -9.99973 6.06489,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.22 0.99 0.4
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7992 -5.0907 3.44179,
+						4.50895 -2.82872 5.47414,
+						11.7937 -2.41896 5.55464,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.42 0.98 0.13
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7992 -5.0907 3.44179,
+						11.7937 -2.41896 5.55464,
+						11.7995 -9.99936 9.99908,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.98 0.9 0.24
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.19814 -2.31338 5.74276,
+						1.36639 0.0183953 6.06127,
+						-1.06159 -2.86331 5.3486,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.9 0.09 0.81
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						1.36639 0.0183953 6.06127,
+						11.7937 -2.41896 5.55464,
+						4.50895 -2.82872 5.47414,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 4
+# Triangles: 4
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.19 0.36 0.32
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7994 0.721535 6.067,
+						11.7995 -9.99936 9.99908,
+						11.7937 -2.41896 5.55464,
+						1.36639 0.0183953 6.06127,
+					]
+				}
+				coordIndex [ 
+						1, 0, 3, -1,
+						0, 1, 2, -1,
+						2, 1, 3, -1,
+						0, 2, 3, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 4
+# Triangles: 4
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.55 0.94 0.04
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.19948 -9.99938 9.99926,
+						-8.19814 -2.31338 5.74276,
+						1.36639 0.0183953 6.06127,
+						-8.19948 1.88478 5.82265,
+					]
+				}
+				coordIndex [ 
+						1, 0, 3, -1,
+						0, 1, 2, -1,
+						2, 1, 3, -1,
+						0, 2, 3, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.79 0.69 0.73
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-1.23417 3.06258 5.28843,
+						1.36639 0.0183953 6.06127,
+						-8.19948 1.88478 5.82265,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.76 0.5 0.55
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						4.67035 2.84021 5.40255,
+						11.7994 0.721535 6.067,
+						1.36639 0.0183953 6.06127,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.6 0.42 0.79
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						1.94136 10 6.10939,
+						4.67035 2.84021 5.40255,
+						1.36639 0.0183953 6.06127,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.84 0.93 0.05
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						4.67035 2.84021 5.40255,
+						11.7998 5.35982 3.27815,
+						11.7994 0.721535 6.067,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.21 0.67 0.04
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7998 5.35982 3.27815,
+						11.7994 9.99951 9.99912,
+						11.7994 0.721535 6.067,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 4
+# Triangles: 4
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.13 0.61 0.54
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7996 1.41205 9.99939,
+						11.7995 -9.99936 9.99908,
+						11.7994 9.99951 9.99912,
+						11.7994 0.721535 6.067,
+					]
+				}
+				coordIndex [ 
+						0, 1, 3, -1,
+						2, 1, 0, -1,
+						1, 2, 3, -1,
+						2, 0, 3, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.26 0.59 0.44
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.19937 9.99966 9.99891,
+						-8.20001 5.72033 2.56408,
+						-8.19948 1.88478 5.82265,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.84 0.21 0.42
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.20001 5.72033 2.56408,
+						-1.23417 3.06258 5.28843,
+						-8.19948 1.88478 5.82265,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.68 0.28 0.89
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						1.94136 10 6.10939,
+						1.36639 0.0183953 6.06127,
+						-1.23417 3.06258 5.28843,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.72 0.08 0.58
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						1.94136 10 6.10939,
+						6.34355 9.99955 4.31692,
+						4.67035 2.84021 5.40255,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.98 0.36 0.08
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-2.23969 9.9994 4.56548,
+						1.94136 10 6.10939,
+						-1.23417 3.06258 5.28843,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.53 0.48 0.03
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.19937 9.99966 9.99891,
+						1.94136 10 6.10939,
+						-2.23969 9.9994 4.56548,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.9 0.54 0.67
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7994 9.99951 9.99912,
+						6.34355 9.99955 4.31692,
+						1.94136 10 6.10939,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.46 0.68 0.29
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						11.7994 9.99951 9.99912,
+						1.94136 10 6.10939,
+						-8.19937 9.99966 9.99891,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0 0.46 0.88
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-2.91331 -9.99962 4.17975,
+						1.54935 -9.99973 6.06489,
+						-8.19948 -9.99938 9.99926,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.97 0.49 0.9
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.19948 -9.99938 9.99926,
+						1.54935 -9.99973 6.06489,
+						11.7995 -9.99936 9.99908,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.03 0.33 0.63
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.19948 1.88478 5.82265,
+						-8.19948 -9.99938 9.99926,
+						-8.19937 9.99966 9.99891,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.97 0.53 0.92
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.19948 -9.99938 9.99926,
+						11.7995 -9.99936 9.99908,
+						3.44098 -6.97689 9.99951,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.86 0.25 0.52
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.19948 -9.99938 9.99926,
+						3.44098 -6.97689 9.99951,
+						-2.78279 -5.55514 9.99951,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.96 0.75 0.88
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						7.41392 -4.37783 10.0002,
+						3.44098 -6.97689 9.99951,
+						11.7995 -9.99936 9.99908,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.57 0.29 0.36
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-8.19948 -9.99938 9.99926,
+						-2.78279 -5.55514 9.99951,
+						-5.36444 -0.58621 9.99998,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 4
+# Triangles: 4
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.6 0.14 0.21
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						8.99204 0.0522215 10.0015,
+						11.7995 -9.99936 9.99908,
+						7.41392 -4.37783 10.0002,
+						11.7996 1.41205 9.99939,
+					]
+				}
+				coordIndex [ 
+						0, 1, 3, -1,
+						2, 1, 0, -1,
+						1, 2, 3, -1,
+						2, 0, 3, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 4
+# Triangles: 4
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.6 0.04 0.28
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-4.09792 3.92912 10.0002,
+						-8.19937 9.99966 9.99891,
+						-8.19948 -9.99938 9.99926,
+						-5.36444 -0.58621 9.99998,
+					]
+				}
+				coordIndex [ 
+						0, 1, 3, -1,
+						2, 1, 0, -1,
+						1, 2, 3, -1,
+						2, 0, 3, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 4
+# Triangles: 4
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.27 0.5 0.48
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						7.25582 4.54086 9.99973,
+						11.7994 9.99951 9.99912,
+						11.7996 1.41205 9.99939,
+						8.99204 0.0522215 10.0015,
+					]
+				}
+				coordIndex [ 
+						1, 0, 3, -1,
+						0, 1, 2, -1,
+						2, 1, 3, -1,
+						0, 2, 3, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.56 0.02 0.94
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-4.09792 3.92912 10.0002,
+						-0.630035 6.70769 10.0016,
+						-8.19937 9.99966 9.99891,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 4
+# Triangles: 4
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.97 0.99 0.43
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						3.99497 6.76051 9.99993,
+						11.7994 9.99951 9.99912,
+						-8.19937 9.99966 9.99891,
+						-0.630035 6.70769 10.0016,
+					]
+				}
+				coordIndex [ 
+						0, 1, 3, -1,
+						2, 1, 0, -1,
+						1, 2, 3, -1,
+						2, 0, 3, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.39 0.02 0.28
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						7.25582 4.54086 9.99973,
+						11.7994 9.99951 9.99912,
+						3.99497 6.76051 9.99993,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.03 0 0.81
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-2.78279 -5.55514 9.99951,
+						3.44098 -6.97689 9.99951,
+						1.30048 -7.11087 18.9995,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.47 0.38 0.59
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						8.65659 1.91805 18.9997,
+						8.99204 0.0522215 10.0015,
+						7.25582 4.54086 9.99973,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.51 0.35 0.34
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-1.55032 6.37396 19,
+						-0.630035 6.70769 10.0016,
+						-4.09792 3.92912 10.0002,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.39 0.92 0.15
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						3.41285 6.96808 18.9999,
+						3.99497 6.76051 9.99993,
+						-0.630035 6.70769 10.0016,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.27 0.04 0.29
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						3.44098 -6.97689 9.99951,
+						7.41392 -4.37783 10.0002,
+						5.95289 -5.75605 18.9998,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.49 0.64 0.85
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						5.95289 -5.75605 18.9998,
+						7.41392 -4.37783 10.0002,
+						8.53086 -2.42897 18.9999,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.29 0.43 0.35
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						8.53086 -2.42897 18.9999,
+						7.41392 -4.37783 10.0002,
+						8.99204 0.0522215 10.0015,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.77 0 0.38
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-5.16116 1.72681 18.9998,
+						-4.09792 3.92912 10.0002,
+						-5.36444 -0.58621 9.99998,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.71 0.49 0.89
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						6.82954 4.94538 18.9996,
+						7.25582 4.54086 9.99973,
+						3.99497 6.76051 9.99993,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.67 0.88 0.92
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						3.41285 6.96808 18.9999,
+						-0.630035 6.70769 10.0016,
+						-1.55032 6.37396 19,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.95 0.43 0.44
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-2.27161 -5.77807 19.0001,
+						-2.78279 -5.55514 9.99951,
+						1.30048 -7.11087 18.9995,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.29 0.9 0.82
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-2.27161 -5.77807 19.0001,
+						-4.58367 -3.13428 18.9999,
+						-2.78279 -5.55514 9.99951,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.4 0.41 0.69
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-2.78279 -5.55514 9.99951,
+						-4.58367 -3.13428 18.9999,
+						-5.36444 -0.58621 9.99998,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.26 0.32 0.61
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						8.53086 -2.42897 18.9999,
+						8.99204 0.0522215 10.0015,
+						8.65659 1.91805 18.9997,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.42 0.6 0.17
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						7.25582 4.54086 9.99973,
+						6.82954 4.94538 18.9996,
+						8.65659 1.91805 18.9997,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 4
+# Triangles: 4
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.23 0.61 0.81
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						1.30048 -7.11087 18.9995,
+						3.44098 -6.97689 9.99951,
+						5.95289 -5.75605 18.9998,
+						8.53086 -2.42897 18.9999,
+					]
+				}
+				coordIndex [ 
+						1, 0, 3, -1,
+						0, 1, 2, -1,
+						2, 1, 3, -1,
+						0, 2, 3, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.09 0.9 0.25
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-5.36444 -0.58621 9.99998,
+						-4.58367 -3.13428 18.9999,
+						-5.16116 1.72681 18.9998,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.96 0.67 0.77
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-1.55032 6.37396 19,
+						-4.09792 3.92912 10.0002,
+						-5.16116 1.72681 18.9998,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.34 0.9 0.26
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						6.82954 4.94538 18.9996,
+						3.99497 6.76051 9.99993,
+						3.41285 6.96808 18.9999,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.24 0.57 0.14
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						1.30048 -7.11087 18.9995,
+						8.53086 -2.42897 18.9999,
+						-2.27161 -5.77807 19.0001,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.68 0.05 0.58
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-2.27161 -5.77807 19.0001,
+						8.53086 -2.42897 18.9999,
+						8.65659 1.91805 18.9997,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.12 0.86 0
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-5.16116 1.72681 18.9998,
+						-4.58367 -3.13428 18.9999,
+						-1.55032 6.37396 19,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.46 0.26 0.94
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-4.58367 -3.13428 18.9999,
+						-2.27161 -5.77807 19.0001,
+						-1.55032 6.37396 19,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.16 0.52 0.78
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-2.27161 -5.77807 19.0001,
+						8.65659 1.91805 18.9997,
+						6.82954 4.94538 18.9996,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.29 0.46 0.9
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-1.55032 6.37396 19,
+						-2.27161 -5.77807 19.0001,
+						3.41285 6.96808 18.9999,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}
+#VRML V2.0 utf8
+
+# Vertices: 3
+# Triangles: 2
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.47 0.7 0.51
+					ambientIntensity 0.4
+					specularColor 0.5 0.5 0.5
+					emissiveColor 0 0 0
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid TRUE
+				convex TRUE
+				coord DEF co Coordinate {
+					point [
+						-2.27161 -5.77807 19.0001,
+						6.82954 4.94538 18.9996,
+						3.41285 6.96808 18.9999,
+					]
+				}
+				coordIndex [ 
+						1, 0, 2, -1,
+						0, 1, 2, -1,
+				]
+			}
+		}
+	]
+}

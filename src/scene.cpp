@@ -5,25 +5,68 @@ void Object::loadObject(objl::Loader L) {
     Loader = L;
 }
 
-bool Object::isConvex(){
-    return false;
+void Object::loadObject(HACD::HeapManager * heapManager, size_t triNum) {
+    myHACD = HACD::CreateHACD(heapManager);
+    
+    myHACD->SetPoints(&points[0]);
+	myHACD->SetNPoints(points.size());
+	myHACD->SetTriangles(&triangles[0]);
+	myHACD->SetNTriangles(triangles.size());
+	myHACD->SetCompacityWeight(0.0001);
+    myHACD->SetVolumeWeight(0.0);
+    myHACD->SetConnectDist(30);
+
+    myHACD->SetNClusters(2);                               // minimum number of clusters
+    myHACD->SetNVerticesPerCH(100);                        // max of 100 vertices per convex-hull
+	myHACD->SetConcavity(0);                               // maximum concavity
+	myHACD->SetSmallClusterThreshold(0.25);				   // threshold to detect small clusters
+	myHACD->SetNTargetTrianglesDecimatedMesh(triNum);      // # triangles in the decimated mesh
+	myHACD->SetCallBack(&CallBack);
+    myHACD->SetAddExtraDistPoints(1);   
+    myHACD->SetAddFacesPoints(1);
 }
+
 void Object::decompose() {
+    clock_t start, end;
+    double elapsed;
+    start = clock();
+    {
+	    myHACD->Compute();
+    }
+    end = clock();
+    elapsed = static_cast<double>(end - start) / CLOCKS_PER_SEC;
+    std::cout << "Time " << elapsed << " s"<< endl;
+    size_t nClusters = myHACD->GetNClusters();
+
+    //print info
 
 }
-
 
 void Scene::loadScene(const char* path) {
+
+    string filename = path;
+    int found = filename.find_last_of("/");
+	if (found != -1)
+		folder = filename.substr(0,found) + "/";
+	if (folder == "")
+        folder = "./";
+    file = filename.substr(found+1);
+
     string format = path;
     if (format.find(".json") != string::npos) {
-        parseJSON(path);
+        cerr << ".json doesn't work yet\n";
+        // parseJSON(path);
     }
     else if (format.find(".obj") != string::npos) {
-        parseOBJ(path);
+        cerr << ".obj doesn't work yet\n";
+        // parseOBJ(path);
+    }
+    else if (format.find(".off") != string::npos) {
+        parseOFF(path);
     }
     else {
         cerr << "Scene file has wrong format\n";
-        cerr << "Allow formats: .obj and .json (from threejs.org/)\n";
+        cerr << "Allow formats: .obj, .off, .json (from threejs.org/)\n";
     }
 
 }
@@ -38,7 +81,7 @@ void Scene::parseOBJ(const char* name) {
             objl::Mesh curMesh = Loader.LoadedMeshes[i];
 			cout << curMesh.MeshName << endl;
         }
-        Object obj(Loader);
+        Object obj(Loader, Loader.LoadedMeshes[0].MeshName);
         objects.push_back(obj);
     }
     else {
@@ -88,7 +131,42 @@ void Scene::parseJSON(const char* name) {
             vertices.push_back(d+d/2);
         }
 
-        Object obj(vertices, indices);
+        Object obj(vertices, indices, j_objects["name"]);
         objects.push_back(obj);
+    }
+}
+
+void Scene::parseOFF(const char* name) {
+    Object obj(file);
+    string outWRLFileName = folder + file.substr(0, file.find_last_of(".")) + ".wrl";
+	string outOFFFileName = folder + file.substr(0, file.find_last_of(".")) + ".off";
+    string outOFFFileNameDecimated = folder + file.substr(0, file.find_last_of(".")) + "_decimated.off";
+    LoadOFF(name, obj.points, obj.triangles, 0);
+	SaveVRML2(outWRLFileName.c_str(), obj.points, obj.triangles);
+	SaveOFF(outOFFFileName.c_str(), obj.points, obj.triangles);
+
+    HACD::HeapManager * heapManager = HACD::createHeapManager(65536*(1000));
+    obj.loadObject(heapManager, triNum);
+    objects.push_back(obj);
+    start_decomposition();
+
+	string outFileName = folder + file.substr(0, file.find_last_of(".")) + "_hacd.wrl";
+	obj.myHACD->Save(outFileName.c_str(), false);    
+    
+    const HACD::Vec3<HACD::Real> * const decimatedPoints = obj.myHACD->GetDecimatedPoints();
+    const HACD::Vec3<long> * const decimatedTriangles    = obj.myHACD->GetDecimatedTriangles();
+    if (decimatedPoints && decimatedTriangles)
+    {
+        SaveOFF(outOFFFileNameDecimated, obj.myHACD->GetNDecimatedPoints(), 
+                                         obj.myHACD->GetNDecimatedTriangles(), decimatedPoints, decimatedTriangles);
+    }
+    HACD::DestroyHACD(obj.myHACD);
+    HACD::releaseHeapManager(heapManager);
+}
+
+void Scene::start_decomposition() {
+    for (vector<Object>::iterator it = objects.begin() ; it != objects.end(); ++it){
+        cout << "Decomposing: " << it->name << endl;
+        it->decompose();
     }
 }

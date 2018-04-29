@@ -2,6 +2,7 @@
 
 #include "primitives.h"
 #include "OBJ_Loader.h"
+#include "OFF_Loader.h"
 
 class Object
 {
@@ -11,32 +12,48 @@ class Object
     
     void loadObject(objl::Loader L);
     bool isConvex();
-    void decompose();
 
 public:
     vector<float> vertices;
-    vector<int> indices; 
-    Object(const vector<float> v, const vector<int> i):
-        vertices(v), indices(i) 
+    vector<int> indices;
+    string name;
+    vector< HACD::Vec3<HACD::Real> > points;
+    vector< HACD::Vec3<long> > triangles;
+	HACD::HACD * myHACD;
+    
+    void loadObject(HACD::HeapManager * heapManager, size_t triNum);    
+    void decompose();
+
+    Object(const vector<float> v, const vector<int> i, string n):
+        vertices(v), indices(i), name(n)
     {}
-    Object(objl::Loader L)
+    Object(objl::Loader L, string n)
     {
+        name = n;
         loadObject(L);
     }
+
+    Object(string n): name(n)
+    {}
 
 };
 
 class Scene
 {
-    
+    string folder, file;
     void loadScene(const char* path);
     void parseJSON(const char* name); // JSON exported from threejs.org/
     void parseOBJ(const char* name); // parse .obj file with .mtl if exist
+    void parseOFF(const char* name); // parse .off file
     void saveScene();
 
 public:
     vector<Object> objects;
-    Scene(const char* filename) {
+    int triNum;
+    void start_decomposition();
+    
+    Scene(const char* filename, int tn = 200) {
+        triNum = tn;
         loadScene(filename);
     }
 
