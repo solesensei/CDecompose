@@ -20,8 +20,9 @@ public:
     vector< HACD::Vec3<HACD::Real> > points;
     vector< HACD::Vec3<long> > triangles;
 	HACD::HACD * myHACD;
-    
-    void loadObject(HACD::HeapManager * heapManager, size_t triNum);    
+    HACD::HeapManager * heapManager;
+
+    void loadObject(size_t triNum);    
     void decompose();
 
     Object(const vector<float> v, const vector<int> i, string n):
@@ -45,7 +46,7 @@ class Scene
     void parseJSON(const char* name); // JSON exported from threejs.org/
     void parseOBJ(const char* name); // parse .obj file with .mtl if exist
     void parseOFF(const char* name); // parse .off file
-    void saveScene();
+    void saveScene(Object obj);
 
 public:
     vector<Object> objects;

@@ -5,7 +5,8 @@ void Object::loadObject(objl::Loader L) {
     Loader = L;
 }
 
-void Object::loadObject(HACD::HeapManager * heapManager, size_t triNum) {
+void Object::loadObject(size_t triNum) {
+    heapManager = HACD::createHeapManager(65536*(1000));    
     myHACD = HACD::CreateHACD(heapManager);
     
     myHACD->SetPoints(&points[0]);
@@ -140,18 +141,22 @@ void Scene::parseOFF(const char* name) {
     Object obj(file);
     string outWRLFileName = folder + file.substr(0, file.find_last_of(".")) + ".wrl";
 	string outOFFFileName = folder + file.substr(0, file.find_last_of(".")) + ".off";
-    string outOFFFileNameDecimated = folder + file.substr(0, file.find_last_of(".")) + "_decimated.off";
     LoadOFF(name, obj.points, obj.triangles, 0);
 	SaveVRML2(outWRLFileName.c_str(), obj.points, obj.triangles);
 	SaveOFF(outOFFFileName.c_str(), obj.points, obj.triangles);
 
-    HACD::HeapManager * heapManager = HACD::createHeapManager(65536*(1000));
-    obj.loadObject(heapManager, triNum);
+    obj.loadObject(triNum);
     objects.push_back(obj);
     start_decomposition();
+    saveScene(obj);
 
-	string outFileName = folder + file.substr(0, file.find_last_of(".")) + "_hacd.wrl";
-	obj.myHACD->Save(outFileName.c_str(), false);    
+}
+
+void Scene::saveScene(Object obj) {
+    cout << "Saving scene" << endl;
+    string outFileName = folder + file.substr(0, file.find_last_of(".")) + "_hacd.wrl";
+    string outOFFFileNameDecimated = folder + file.substr(0, file.find_last_of(".")) + "_decimated.off";	
+    obj.myHACD->Save(outFileName.c_str(), false);    
     
     const HACD::Vec3<HACD::Real> * const decimatedPoints = obj.myHACD->GetDecimatedPoints();
     const HACD::Vec3<long> * const decimatedTriangles    = obj.myHACD->GetDecimatedTriangles();
@@ -161,10 +166,12 @@ void Scene::parseOFF(const char* name) {
                                          obj.myHACD->GetNDecimatedTriangles(), decimatedPoints, decimatedTriangles);
     }
     HACD::DestroyHACD(obj.myHACD);
-    HACD::releaseHeapManager(heapManager);
+    HACD::releaseHeapManager(obj.heapManager);
+
 }
 
 void Scene::start_decomposition() {
+
     for (vector<Object>::iterator it = objects.begin() ; it != objects.end(); ++it){
         cout << "Decomposing: " << it->name << endl;
         it->decompose();

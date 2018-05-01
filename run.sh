@@ -5,4 +5,4 @@ cd build
 cmake ..
 make
 
-./CDecompose 
+./CDecompose ../data/block.off

@@ -5,11 +5,18 @@
 
 int main(int argc, char* argv[])
 {
-	cout << "CDecomposition starts" << endl;
-	
-	// Scene s_json("../data/scene.json");
-	// Scene s_obj("../data/object.obj");
-	Scene s_off("../data/block.off", 200);
-	
+	if (argc != 2){
+		cerr << "Input error. Abort." << endl;
+		cerr << "\tinput: ./CDecompose [filepath] (.obj, .off, .json)" << endl;
+	}
+	char* name = argv[1];
+	cout << "*************************" << endl;
+	cout << "* CDecomposition starts *" << endl;
+	cout << "*                  v0.5 *" << endl;	
+	cout << "*************************" << endl;
+	cout << "File: " << name << endl;
+
+	Scene scene(name);	
+
 	return 0;
 }
