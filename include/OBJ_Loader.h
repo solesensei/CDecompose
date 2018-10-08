@@ -369,6 +369,12 @@ namespace objl
 				idx--;
 			return elements[idx];
 		}
+
+		template <class T>
+		inline const T & getElement(const std::vector<T> &elements, int index)
+		{
+			return elements[index];
+		}
 	}
 
 	// Class: Loader
@@ -429,8 +435,12 @@ namespace objl
 			#endif
 
 			std::string curline;
+			int lineNum = 0;
+			int VertSize = 0;
+			bool startV = false;
 			while (std::getline(file, curline))
 			{
+				lineNum++;
 				#ifdef OBJL_CONSOLE_OUTPUT
 				if ((outputIndicator = ((outputIndicator + 1) % outputEveryNth)) == 1)
 				{
@@ -503,6 +513,11 @@ namespace objl
 				// Generate a Vertex Position
 				if (algorithm::firstToken(curline) == "v")
 				{
+					if (!startV)
+					{
+						VertSize = lineNum;
+						startV = true;
+					}
 					std::vector<std::string> spos;
 					Vector3 vpos;
 					algorithm::split(algorithm::tail(curline), spos, " ");
@@ -512,6 +527,11 @@ namespace objl
 					vpos.Z = std::stof(spos[2]);
 
 					Positions.push_back(vpos);
+					continue;
+				}
+				if (startV){
+					VertSize = lineNum - VertSize;
+					startV = false;
 				}
 				// Generate a Vertex Texture Coordinate
 				if (algorithm::firstToken(curline) == "vt")
@@ -635,7 +655,8 @@ namespace objl
 			#ifdef OBJL_CONSOLE_OUTPUT
 			std::cout << std::endl;
 			#endif
-
+			
+			vPos = Positions;
 			// Deal with last mesh
 
 			if (!Indices.empty() && !Vertices.empty())
@@ -685,6 +706,9 @@ namespace objl
 		std::vector<unsigned int> LoadedIndices;
 		// Loaded Material Objects
 		std::vector<Material> LoadedMaterials;
+		// Position vertecies
+		std::vector<Vector3> vPos;
+		std::vector<int> vFace;
 
 	private:
 		// Generate vertices from a list of positions, 
@@ -698,7 +722,7 @@ namespace objl
 			std::vector<std::string> sface, svert;
 			Vertex vVert;
 			algorithm::split(algorithm::tail(icurline), sface, " ");
-
+			vector<int> v_faces;
 			bool noNormal = false;
 
 			// For every given vertex do this
@@ -745,6 +769,7 @@ namespace objl
 				case 1: // P
 				{
 					vVert.Position = algorithm::getElement(iPositions, svert[0]);
+					v_faces.push_back(atoi(svert[0].c_str()));										
 					vVert.TextureCoordinate = Vector2(0, 0);
 					noNormal = true;
 					oVerts.push_back(vVert);
@@ -753,6 +778,7 @@ namespace objl
 				case 2: // P/T
 				{
 					vVert.Position = algorithm::getElement(iPositions, svert[0]);
+					v_faces.push_back(atoi(svert[0].c_str()));										
 					vVert.TextureCoordinate = algorithm::getElement(iTCoords, svert[1]);
 					noNormal = true;
 					oVerts.push_back(vVert);
@@ -761,6 +787,7 @@ namespace objl
 				case 3: // P//N
 				{
 					vVert.Position = algorithm::getElement(iPositions, svert[0]);
+					v_faces.push_back(atoi(svert[0].c_str()));										
 					vVert.TextureCoordinate = Vector2(0, 0);
 					vVert.Normal = algorithm::getElement(iNormals, svert[2]);
 					oVerts.push_back(vVert);
@@ -769,6 +796,7 @@ namespace objl
 				case 4: // P/T/N
 				{
 					vVert.Position = algorithm::getElement(iPositions, svert[0]);
+					v_faces.push_back(atoi(svert[0].c_str()));										
 					vVert.TextureCoordinate = algorithm::getElement(iTCoords, svert[1]);
 					vVert.Normal = algorithm::getElement(iNormals, svert[2]);
 					oVerts.push_back(vVert);
@@ -780,7 +808,7 @@ namespace objl
 				}
 				}
 			}
-
+			
 			// take care of missing normals
 			// these may not be truly acurate but it is the 
 			// best they get for not compiling a mesh with normals	

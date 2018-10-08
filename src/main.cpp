@@ -16,7 +16,7 @@ int main(int argc, char* argv[])
 	cout << "*************************" << endl;
 	cout << "File: " << name << endl;
 
-	Scene scene(name);	
+	Scene scene(name, 7611);	
 
 	return 0;
 }

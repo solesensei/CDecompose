@@ -10,29 +10,18 @@ class Object
     objl::Loader Loader;
     vec3 color;
     
-    void loadObject(objl::Loader L);
     bool isConvex();
 
 public:
-    vector<float> vertices;
-    vector<int> indices;
     string name;
     vector< HACD::Vec3<HACD::Real> > points;
     vector< HACD::Vec3<long> > triangles;
 	HACD::HACD * myHACD;
     HACD::HeapManager * heapManager;
 
-    void loadObject(size_t triNum);    
+    void loadObject(objl::Loader L);
+    void loadObject(int triNum);    
     void decompose();
-
-    Object(const vector<float> v, const vector<int> i, string n):
-        vertices(v), indices(i), name(n)
-    {}
-    Object(objl::Loader L, string n)
-    {
-        name = n;
-        loadObject(L);
-    }
 
     Object(string n): name(n)
     {}

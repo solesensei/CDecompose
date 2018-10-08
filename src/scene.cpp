@@ -2,10 +2,28 @@
 
 
 void Object::loadObject(objl::Loader L) {
-    Loader = L;
+
+    if (L.LoadedMeshes.empty())
+        return;
+    
+
+    points.resize(L.vPos.size());
+    for(size_t i = 0; i < L.vPos.size(); ++i)
+    {
+        points[i].X() = L.vPos[i].X;
+        points[i].Y() = L.vPos[i].Y; 
+        points[i].Z() = L.vPos[i].Z; 
+    }
+    triangles.resize(L.vFace[0]/3);
+    for(size_t i = 0; i < L.LoadedMeshes[0].Vertices.size()/3; ++i)
+    {
+        triangles[i].X() = L.vFace[i+i];
+        triangles[i].Y() = L.vFace[i+1];
+        triangles[i].Z() = L.vFace[i+2];
+    }
 }
 
-void Object::loadObject(size_t triNum) {
+void Object::loadObject(int triNum) {
     heapManager = HACD::createHeapManager(65536*(1000));    
     myHACD = HACD::CreateHACD(heapManager);
     
@@ -59,8 +77,7 @@ void Scene::loadScene(const char* path) {
         // parseJSON(path);
     }
     else if (format.find(".obj") != string::npos) {
-        cerr << ".obj doesn't work yet\n";
-        // parseOBJ(path);
+        parseOBJ(path);
     }
     else if (format.find(".off") != string::npos) {
         parseOFF(path);
@@ -74,6 +91,7 @@ void Scene::loadScene(const char* path) {
 
 void Scene::parseOBJ(const char* name) {
     objl::Loader Loader;
+    Object obj(file);    
     bool loadout = Loader.LoadFile(name);
 
     if (loadout) {
@@ -82,8 +100,20 @@ void Scene::parseOBJ(const char* name) {
             objl::Mesh curMesh = Loader.LoadedMeshes[i];
 			cout << curMesh.MeshName << endl;
         }
-        Object obj(Loader, Loader.LoadedMeshes[0].MeshName);
+
+        obj.loadObject(Loader);
+        string outWRLFileName = folder + file.substr(0, file.find_last_of(".")) + ".wrl";
+        string outOFFFileName = folder + file.substr(0, file.find_last_of(".")) + ".off";
+        cerr << obj.triangles.size() << endl;
+        SaveVRML2(outWRLFileName.c_str(), obj.points, obj.triangles);
+        SaveOFF(outOFFFileName.c_str(), obj.points, obj.triangles);
+        exit(0);
+
+        obj.loadObject(triNum);
         objects.push_back(obj);
+        start_decomposition();
+        saveScene(obj);
+
     }
     else {
         cerr << "Loader Error :: Couldn't load the file: " << name << endl;
@@ -132,8 +162,8 @@ void Scene::parseJSON(const char* name) {
             vertices.push_back(d+d/2);
         }
 
-        Object obj(vertices, indices, j_objects["name"]);
-        objects.push_back(obj);
+        // Object obj(vertices, indices, j_objects["name"]);
+        // objects.push_back(obj);
     }
 }
 
@@ -155,7 +185,8 @@ void Scene::parseOFF(const char* name) {
 void Scene::saveScene(Object obj) {
     cout << "Saving scene" << endl;
     string outFileName = folder + file.substr(0, file.find_last_of(".")) + "_hacd.wrl";
-    string outOFFFileNameDecimated = folder + file.substr(0, file.find_last_of(".")) + "_decimated.off";	
+    string outOFFFileNameDecimated = folder + file.substr(0, file.find_last_of(".")) + "_decimated.off";
+
     obj.myHACD->Save(outFileName.c_str(), false);    
     
     const HACD::Vec3<HACD::Real> * const decimatedPoints = obj.myHACD->GetDecimatedPoints();
